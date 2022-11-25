@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1788bff7.css",
+    "main.js": "/static/js/main.16d740f3.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/neuronios.png": "/static/media/neuronios.c77ca523e8ca51a4d8c1.png",
+    "static/media/epidemia.png": "/static/media/epidemia.49f69dfbfc98a2e609c7.png",
+    "static/media/avatar.jpg": "/static/media/avatar.a026f3832f0d772e233a.jpg",
+    "static/media/regressao.png": "/static/media/regressao.dad12ba000e3d43326c6.png",
+    "static/media/classificacao.png": "/static/media/classificacao.baa77ce2d48fd506e907.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/static/media/Soumyajit_Behera-BIT_MESRA.a1cb5c1907e31e31991a.pdf",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/spellwizard.png": "/static/media/spellwizard.a0af20e89570b19cc7f2.png",
+    "static/media/logo.png": "/static/media/logo.20ddc12d51b4d827d1fd.png",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.1788bff7.css.map": "/static/css/main.1788bff7.css.map",
+    "main.16d740f3.js.map": "/static/js/main.16d740f3.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1788bff7.css",
+    "static/js/main.16d740f3.js"
+  ]
+}
