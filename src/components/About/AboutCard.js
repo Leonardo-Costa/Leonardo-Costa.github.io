@@ -15,6 +15,23 @@ function AboutCard() {
             Universidade Federal de São Paulo.
             <br />
             <br />
+            Possuo experiência em{" "}
+            <span className="purple">
+              desenvolvimento de software mobile, em atendimento ao cliente e
+              suporte técnico
+            </span>
+            <br />
+            <br />
+            Faço parte do TOR, um projeto de extensão da UNIFESP que leciona
+            robótica para alunos de escolas públicas, sou instrutor de robótica
+            e responsável pelo setor de marketing.
+            <br />
+            <br />
+            <span className="purple">Atualmente</span>, estou focado nos estudos
+            de data science, inteligência artificial e desenvolvimento de
+            software mobile.
+            <br />
+            <br />
             Além de programar, aqui estão outras atividades que eu adoro
             praticar!
           </p>
