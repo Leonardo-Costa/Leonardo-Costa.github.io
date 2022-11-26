@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             Sou desenvolvedor de software, gerente de projetos e estudante de
             ciências da computação na <span className="purple">UNIFESP </span> -
-            Universidade Federal de São Paulo!
+            Universidade Federal de São Paulo.
             <br />
             <br />
             Possuo experiência em{" "}
