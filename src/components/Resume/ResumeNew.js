@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Leonardo-Costa/portfolio/blob/main/src/Assets/Leonardo%20Loureiro%20Costa-CV.pdf";
+  "https://raw.githubusercontent.com/Leonardo-Costa/Leonardo-Costa.github.io/main/src/Assets/cv.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -35,8 +35,8 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document file={resumeLink} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.4 : 0.6} />
           </Document>
         </Row>
 

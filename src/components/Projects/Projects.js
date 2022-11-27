@@ -7,6 +7,7 @@ import epidemia from "../../Assets/Projects/epidemia.png";
 import neuronios from "../../Assets/Projects/neuronios.png";
 import regressao from "../../Assets/Projects/regressao.png";
 import spellwizard from "../../Assets/Projects/spellwizard.png";
+import tor from "../../Assets/Projects/tor.png";
 
 function Projects() {
   return (
@@ -67,6 +68,16 @@ function Projects() {
               title="Previsão da nota do ENEM"
               description="Previsão da nota do ENEM utilizando regressão em uma rede MutiLayer Perceptron - MLP. Desvio padrão de apenas 3 pontos na previsão da nota segundo a TRI com base nos cartões de respostas de mais de 500 mil aplicantes."
               ghLink="https://github.com/Leonardo-Costa/neural-networks-mlp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tor}
+              isBlog={true}
+              title="TOR - Projeto de extensão"
+              description="Coordeno o setor de marketing e sou instrutor de robótica no TOR, projeto de extensão da UNIFESP que leciona robótica para alunos de escolas públicas do fundamental dois."
+              ghLink="https://linktr.ee/tor.projeto"
             />
           </Col>
         </Row>
