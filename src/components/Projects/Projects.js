@@ -8,6 +8,7 @@ import neuronios from "../../Assets/Projects/neuronios.png";
 import regressao from "../../Assets/Projects/regressao.png";
 import spellwizard from "../../Assets/Projects/spellwizard.png";
 import tor from "../../Assets/Projects/tor.png";
+import vae from "../../Assets/Projects/vae.png";
 
 function Projects() {
   return (
@@ -78,6 +79,16 @@ function Projects() {
               title="TOR - Projeto de extensão"
               description="Coordeno o setor de marketing e sou instrutor de robótica no TOR, projeto de extensão da UNIFESP que leciona robótica para alunos de escolas públicas do fundamental dois."
               ghLink="https://linktr.ee/tor.projeto"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vae}
+              isBlog={false}
+              title="VAE - Variational Autoencoder"
+              description="Implementação de um Variational Autoencoder - VAE utilizando Keras eOpenCV. O VAE é uma rede neural que aprende a representar dados em um espaço latente, permitindo a geração de novos dados."
+              ghLink="https://github.com/Leonardo-Costa/redes-neurais/tree/main/vae"
             />
           </Col>
         </Row>
