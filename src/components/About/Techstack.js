@@ -1,21 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import { DiJavascript1, DiReact, DiPython, DiGit } from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-  SiScikitlearn,
-  SiKeras,
-  SiLatex,
-} from "react-icons/si";
+import { DiReact, DiPython, DiGit, DiAngularSimple } from "react-icons/di";
+import { SiScikitlearn, SiKeras, SiLatex, SiTypescript } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />

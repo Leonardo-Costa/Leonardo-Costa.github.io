@@ -9,6 +9,7 @@ import regressao from "../../Assets/Projects/regressao.png";
 import spellwizard from "../../Assets/Projects/spellwizard.png";
 import tor from "../../Assets/Projects/tor.png";
 import vae from "../../Assets/Projects/vae.png";
+import ocr from "../../Assets/Projects/ocr.png";
 
 function Projects() {
   return (
@@ -24,11 +25,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={spellwizard}
+              imgPath={ocr}
               isBlog={false}
-              title="Spell Wizard"
-              description="Aplicativo em desenvolvimento voltado para os novos jogadores de Dungeons & Dragons, um guia de magias para os novatos e os experientes. Desenvolvido em React Native."
-              ghLink="https://github.com/Leonardo-Costa/spell-wizard"
+              title="OCR"
+              description="Solução de visão computacional para reconhecer, classificar e resolver equações matemáticas simples escritas à mão, projeto implementado em Python com uso de bibliotecas como Numpy, OpenCV, Keras, Matplotlib."
+              ghLink="https://github.com/Leonardo-Costa/ocr-equation-solver"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={regressao}
+              isBlog={false}
+              title="Previsão da nota do ENEM"
+              description="Previsão da nota do ENEM utilizando regressão em uma rede MutiLayer Perceptron - MLP. Desvio padrão de apenas 3 pontos na previsão da nota segundo a TRI com base nos cartões de respostas de mais de 500 mil aplicantes."
+              ghLink="https://github.com/Leonardo-Costa/neural-networks-mlp"
             />
           </Col>
 
@@ -64,16 +75,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={regressao}
-              isBlog={false}
-              title="Previsão da nota do ENEM"
-              description="Previsão da nota do ENEM utilizando regressão em uma rede MutiLayer Perceptron - MLP. Desvio padrão de apenas 3 pontos na previsão da nota segundo a TRI com base nos cartões de respostas de mais de 500 mil aplicantes."
-              ghLink="https://github.com/Leonardo-Costa/neural-networks-mlp"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={tor}
               isBlog={true}
               title="TOR - Projeto de extensão"
@@ -89,6 +90,16 @@ function Projects() {
               title="VAE - Variational Autoencoder"
               description="Implementação de um Variational Autoencoder - VAE utilizando Keras eOpenCV. O VAE é uma rede neural que aprende a representar dados em um espaço latente, permitindo a geração de novos dados."
               ghLink="https://github.com/Leonardo-Costa/redes-neurais/tree/main/vae"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spellwizard}
+              isBlog={false}
+              title="Spell Wizard"
+              description="Aplicativo em desenvolvimento voltado para os novos jogadores de Dungeons & Dragons, um guia de magias para os novatos e os experientes. Desenvolvido em React Native."
+              ghLink="https://github.com/Leonardo-Costa/spell-wizard"
             />
           </Col>
         </Row>

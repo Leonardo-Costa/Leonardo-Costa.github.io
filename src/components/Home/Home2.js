@@ -15,50 +15,63 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1
+              style={{
+                fontSize: "2.6em",
+                textAlign: "left",
+              }}
+            >
               UM POUCO <span className="purple"> SOBRE MIM </span>
             </h1>
             <p className="home-about-body">
-              Sou apaixonado pelo{" "}
-              <b className="purple">desenvolvimento de software</b> e pela{" "}
-              <b className="purple">inteligência artificial!</b>
+              Sou estudante de <b className="purple">Ciências da Computação</b>,{" "}
+              <b className="purple">desenvolvedor de software</b>,{" "}
+              <b className="purple">instrutor de robótica</b> e um entusiasta de{" "}
+              <b className="purple">inteligência artificial</b>
+              {" e "}
+              <b className="purple">ciência de dados.</b>
               <br />
               <br />
               Acredito que a tecnologia pode ser usada para melhorar a vida das
-              pessoas e que a <b className="purple">ciência de dados</b> é uma
-              das ferramentas mais poderosas para isso.
+              pessoas e que a <b className="purple">
+                inteligência artificial
+              </b>{" "}
+              é uma das ferramentas mais poderosas para isso.
               <br />
               <br />
+              Desenvolvo projetos acadêmicos nas áreas de
+              <b className="purple"> redes neurais</b>
+              {" e "}
+              <b className="purple">processamento de imagens</b>
+              {" e "}
               Sou fluente em
-              <i>
-                <b className="purple"> Python, Javascript e C. </b>
-              </i>
+              <b className="purple"> Python</b>, principalmente no uso de
+              bibliotecas científicas,{" "}
+              <b className="purple"> Angular, React Native</b> {" e "}
+              <b className="purple">C</b>
               <br />
               <br />
-              Meus principais interesses são pelas áreas de
-              <i>
-                <b className="purple"> Desenvolvimento de software Mobile </b>{" "}
-                e, também, nas áreas de
-                <b className="purple">
-                  {" "}
-                  Data science, inteligência artificial e redes neurais.
-                </b>
-              </i>
+              Meus principais interesses são pelas áreas de{" "}
+              <b className="purple">Inteligência artificial</b>
+              {", "}
+              <b className="purple">de dados</b>
+              {", e "}
+              <b className="purple">redes neurais.</b>
               <br />
               <br />
-              Quando possível, gosto de dedicar meu tempo a projetos sociais,
-              sou
-              <i>
-                <b className="purple"> Instrutor de robótica</b>
-              </i>{" "}
-              e
-              <i>
-                <b className="purple"> Gerente de projetos</b>
-              </i>{" "}
-              no
-              <i>
-                <b className="purple"> TOR</b>.
-              </i>
+              Além disso, tenho experiência em
+              <b className="purple"> gestão de projetos </b>e métodos ágeis no
+              TOR - projeto de extensão da UNIFESP voltado ao
+              <b className="purple">
+                ensino de robótica para alunos de escolas públicas
+              </b>
+              <br />
+              <br />
+              Sou uma pessoa
+              <b className="purple"> proativa</b>,
+              <b className="purple"> focada</b> e sempre à procura de
+              <b className="purple"> novos desafios</b>, buscando me aperfeiçoar
+              continuamente em minhas habilidades técnicas.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
